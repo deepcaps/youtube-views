@@ -1,0 +1,6 @@
+selenium
+colorama
+threading
+pystyle
+time
+os
