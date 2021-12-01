@@ -13,6 +13,7 @@ import threading
 from pystyle import Colorate, Colors, Center, Box
 from time import sleep, monotonic
 import os
+import platform
 
 
 def main():
@@ -118,9 +119,9 @@ $$ |   $$ |  $$ |  $$ |      $$ |$$$\ $$ |$$ /  \__|
     \_/    \______|\________|\__/     \__| \______/
 """
     # clear console
-    try:
+    if platform.system() == "Windows":   # if os is windows
         os.system("cls")
-    except:
+    else:
         os.system("clear")
 
     # write title on console
@@ -144,12 +145,11 @@ def speedTest():
         # set options
         options = Options()
         options.add_argument('--headless')
-        options.add_argument('--disable-gpu')
         options.add_argument('--no-sandbox')
         options.add_argument('--log-level=3')
 
         # start chromedriver
-        driver = webdriver.Chrome(executable_path="chromedriver.exe", chrome_options=options)
+        driver = webdriver.Chrome(chrome_options=options)
 
         # test link
         timerStart = monotonic()   # start timer
