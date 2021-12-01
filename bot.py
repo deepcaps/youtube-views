@@ -208,12 +208,11 @@ def session(link, watchTime, threadNbr):
     # set options
     options = Options()
     options.add_argument('--headless')
-    options.add_argument('--disable-gpu')
     options.add_argument('--no-sandbox')
     options.add_argument('--log-level=3')
 
     # start chromedriver
-    driver = webdriver.Chrome(executable_path="chromedriver.exe", chrome_options=options)
+    driver = webdriver.Chrome(chrome_options=options)
     print(Fore.BLUE +"session", threadNbr,":" +Fore.GREEN + " started successfully !" + Style.RESET_ALL)
     try:
         driver.get(link)   # get link of video
