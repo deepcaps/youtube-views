@@ -1,6 +1,6 @@
 selenium
 colorama
-threading
+threaded
 pystyle
 time
 os
