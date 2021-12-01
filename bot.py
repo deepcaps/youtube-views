@@ -220,7 +220,7 @@ def session(link, watchTime, threadNbr):
     except:
         print(Fore.BLUE +"session", threadNbr,":" + Fore.RED + Style.BRIGHT + " ERROR !" + Style.NORMAL + " unable to get link" + Style.RESET_ALL)
         driver.close()
-        sleep(2)
+        del threads[threads.index(threading.current_thread())]   # delete thread
         return False
 
     # accept condition
@@ -232,7 +232,7 @@ def session(link, watchTime, threadNbr):
     except:
         print(Fore.BLUE +"session", threadNbr,":" +Fore.RED + Style.BRIGHT + " ERROR !" + Style.NORMAL + ' unable to access the element: "/html/body/ytd-app/ytd-consent-bump-v2-lightbox/tp-yt-paper-dialog/div[4]/div[2]/div[5]/div[2]/ytd-button-renderer[2]/a/tp-yt-paper-button" !' + Style.RESET_ALL)
         driver.close()
-        sleep(2)
+        del threads[threads.index(threading.current_thread())]   # delete thread
         return False
 
     # wait watchTime
