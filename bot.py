@@ -184,7 +184,7 @@ def threadInit(threadNbr, rep, watchTime, link):
     '''
     global threads
     for u in range(rep):   # "rep" repetition
-        print(Fore.YELLOW + "system : start repetition", u+1, "" + Style.RESET_ALL)
+        print(Fore.YELLOW + "system : start repetition", u+1, "/",rep , "" + Style.RESET_ALL)
         threads = []
         for i in range(threadNbr):   # "threadNbr" repetition
             t = threading.Thread(name="thread"+str(i), target=session, args=(link, watchTime, i+1, ))   # create thread
