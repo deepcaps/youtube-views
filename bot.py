@@ -33,11 +33,13 @@ def main():
         link = input(Colorate.Horizontal(Colors.yellow_to_red, "[>] youtube vidéo link : "))
         if link == "":   # check if is empty
             print(Fore.YELLOW +"system :" + Fore.RED + Style.BRIGHT + " ERROR !" + Style.NORMAL + " invalid answer" + Style.RESET_ALL)
+            sleep(2)
             return False
         else:
             try:   # check if the answer is not a number
                 int(link)
                 print(Fore.YELLOW +"system :" + Fore.RED + Style.BRIGHT + " ERROR !" + Style.NORMAL + " invalid answer" + Style.RESET_ALL)
+                sleep(2)
                 return False
             except:
                 pass
@@ -49,6 +51,7 @@ def main():
         rep = int(input(Colorate.Horizontal(Colors.yellow_to_red, "[>] number of repetition (for more views) : ")))
     except:   # if answer is invalid
         print(Fore.YELLOW +"system :" + Fore.RED + Style.BRIGHT + " ERROR !" + Style.NORMAL + " invalid answer(s)" + Style.RESET_ALL)
+        sleep(2)
         return False
 
     # speedtest
@@ -80,12 +83,12 @@ estimated total time: """ + str(totalTime) + """ seconds
         return True
     elif choice == "n":
         print(Fore.YELLOW + "system :" + Style.RESET_ALL + " closing program ..." + Style.RESET_ALL)
-        sleep(1)
+        sleep(2)
         return True
     else:   # if incorrect answer
         print(Fore.YELLOW +"system :" + Fore.RED + Style.BRIGHT + " ERROR !" + Style.NORMAL + " invalid answer" + Style.RESET_ALL)
         print(Fore.YELLOW + "system :" + Style.RESET_ALL + " closing program ..." + Style.RESET_ALL)
-        sleep(1)
+        sleep(2)
         return False
 
 def graphicTitle():
@@ -193,6 +196,7 @@ def threadInit(threadNbr, rep, watchTime, link):
             pass
         if u+1 == rep:   # if is the last "rep"
             print(Fore.YELLOW + "system : end of process" + Style.RESET_ALL)
+            sleep(2)
             return True
 
 def session(link, watchTime, threadNbr):
@@ -217,6 +221,7 @@ def session(link, watchTime, threadNbr):
     except:
         print(Fore.BLUE +"session", threadNbr,":" + Fore.RED + Style.BRIGHT + " ERROR !" + Style.NORMAL + " unable to get link" + Style.RESET_ALL)
         driver.close()
+        sleep(2)
         return False
 
     # accept condition
@@ -228,6 +233,7 @@ def session(link, watchTime, threadNbr):
     except:
         print(Fore.BLUE +"session", threadNbr,":" +Fore.RED + Style.BRIGHT + " ERROR !" + Style.NORMAL + ' unable to access the element: "/html/body/ytd-app/ytd-consent-bump-v2-lightbox/tp-yt-paper-dialog/div[4]/div[2]/div[5]/div[2]/ytd-button-renderer[2]/a/tp-yt-paper-button" !' + Style.RESET_ALL)
         driver.close()
+        sleep(2)
         return False
 
     # wait watchTime
