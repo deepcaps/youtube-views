@@ -62,3 +62,13 @@ Pour la troisième option (_thread nbr_), vous devez entrer **un entier** qui co
 > La valeur recommendée est **5** pour un pc moyen (8 go de RAM) mais cela dépend de votre utilisation et de vos performances.
 
 ![threadNbr](./images/threadNbr.png)
+
+Pour finir, pour la dernière option (_repetion nbr_), vous devez indiquer le nombre de boucle que va faire le programme. Cette options n'utilise pas de performances supplémentaires contrairement à _thread nbr_
+> Vous pouvez terminer le programme avant la fin des répétitions avec le racourcie _CTRL + C_
+
+![rep](./images/rep.png)
+
+Le programme effectura un **test de connexion** sur l'hote _www.youtube.com_ et vous calculera ensuite une estimation des vues que cela vous rapporteras et du temps que cela va prendre.
+> Le temps peut varier en fonction des **performances** de votre machine et de l'évolution de votre **vitesse de connexion**
+
+![table](./images/table.png)
