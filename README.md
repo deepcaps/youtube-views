@@ -35,12 +35,15 @@ Déplacez-vous dans le répertoire créé puis effectuez cette commande pour ins
 
 
 Démarez ensuite le programme avec
+> Vous devez avoir la version _96.0.4664.45_ de chrome ou télecharger la version correspondante à votre navigateur chrome [_ici_](https://chromedriver.chromium.org/) et la remplacer par le fichier _chromedriver.exe_ ou _chromedriver_ si ce n'est pas la bonne version (pour connaitre sa version de chrome: [_tuto_](https://assistance.orange.fr/ordinateurs-peripheriques/installer-et-utiliser/la-recherche-et-navigation-sur-le-web-cookies/un-navigateur/google-chrome/google-chrome-verifier-la-version-et-mettre-a-jour_34337-35111))
 
 `python3 bot.py`
 
 ![main](./images/main.png)
 
 ## Windows executable
+> Vous devez avoir la version _96.0.4664.45_ de chrome pour que le bot fonctionne (pour connaitre sa version de chrome: [_tuto_](https://assistance.orange.fr/ordinateurs-peripheriques/installer-et-utiliser/la-recherche-et-navigation-sur-le-web-cookies/un-navigateur/google-chrome/google-chrome-verifier-la-version-et-mettre-a-jour_34337-35111))
+
 Télechargez [_l'executable windows_](https://github.com/deepcaps/youtube-views/releases/download/versions/youtube-views.zip) puis executez le simplement sans installation
 > L'executable n'est peut être pas avec la dernière version du bot
 
