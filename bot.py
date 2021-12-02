@@ -130,8 +130,13 @@ $$ |   $$ |  $$ |  $$ |      $$ |$$$\ $$ |$$ /  \__|
     title2 = Center.XCenter(title2)
     print(Colorate.Horizontal(Colors.yellow_to_red, title2))
 
+    # pseudo
+    print()
+    text = Center.XCenter("by @deepcaps")
+    print(Colorate.Horizontal(Colors.yellow_to_red, text))
+
     # space
-    for i in range(3):
+    for i in range(2):
         print()
     return True
 
