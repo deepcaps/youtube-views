@@ -46,6 +46,12 @@ Télechargez [_l'executable windows_](https://github.com/deepcaps/youtube-views/
 
 ![executable](./images/executable.png)
 
+Vous devriez peut être avoir besoin de **débloquer** l'application avant de l'executer. Pour cela:
+- Clic-droit => _propriétées_ sur le fichier
+- Cocher la case _débloquer_
+
+![unblock](./images/unblock.png)
+
 
 # How to use
 
