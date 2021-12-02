@@ -45,7 +45,7 @@ Télechargez [_l'executable windows_](https://github.com/deepcaps/youtube-views/
 
 # How to use
 
-Après avoir installé et executé le bot (voir [Installation](#installation)), appuyez sur `[ENTER]` pour le démarer
+Après avoir installé et lancé le bot (voir [Installation](#installation)), appuyez sur `[ENTER]` pour le démarer
 
 ![main](./images/main.png)
 
@@ -53,7 +53,12 @@ Pour la première options (_link of the video_), vous devez simplement entrer le
 
 ![link](./images/link.png)
 
-Ensuite, pour la deuxième options (_watch time_), vous devez indiquez le temps que le bot restera sur la vidéoen secondes.
-> Plus le bot reste longtemps, plus la vidéo serat référencé
+Ensuite, pour la deuxième options (_watch time_), vous devez indiquez le temps que le bot restera sur la vidéo **en secondes**.
+> Plus le bot reste longtemps, plus la vidéo sera référencé
 
 ![watchTime](./images/watchTime.png)
+
+Pour la troisième option (_thread nbr_), vous devez entrer **un entier** qui correspondra au nombre de session lancé simultanément. Plus le chiffre est élevé, plus il y aura de vues rapidement mais plus cela utilisera de la **RAM**.
+> La valeur recommendée est **5** pour un pc moyen (8 go de RAM) mais cela dépend de votre utilisation et de vos performances.
+
+![threadNbr](./images/threadNbr.png)
