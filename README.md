@@ -3,6 +3,10 @@ youtube-views
 
 ### add views in your videos
 [![PYTHON](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![SELENIUM](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=Selenium&logoColor=white)](https://selenium-python.readthedocs.io/)
+![WINDOWS](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)
+![LINUX](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+[![CHROME](https://img.shields.io/badge/Google_chrome-4285F4?style=flat&logo=Google-chrome&logoColor=white)](https://www.google.com/intl/fr_fr/chrome/)
 
 
 # Introduction
@@ -72,3 +76,28 @@ Le programme effectura un **test de connexion** sur l'hote _www.youtube.com_ et 
 > Le temps peut varier en fonction des **performances** de votre machine et de l'évolution de votre **vitesse de connexion**
 
 ![table](./images/table.png)
+
+
+# To know
+Le projet est un bot créé par **@deepcaps** avec [selenium](https://selenium-python.readthedocs.io/).
+
+Aucune donnés n'est enregistrées.
+
+Les librairies utilisées sont:
+- colorama
+- selenium
+- platform
+- time
+- threaded
+- os
+- pystyle
+
+
+# Me contacter
+Vous pouvez me contacter a l'adresse [**deepcaps@outlook.com**](deepcaps@outlook.com) pour me faire parvenir les bugs ou les fonctionnalités à rajouter.
+
+
+# Infos
+[![MAINTENED](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/deepcaps/youtube-views/)
+
+![test](https://github-readme-streak-stats.herokuapp.com/?user=deepcaps)
