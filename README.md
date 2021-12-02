@@ -41,7 +41,7 @@ Démarez ensuite le programme avec
 ![main](./images/main.png)
 
 ## Windows executable
-Télechargez [_l'executable windows_](https://github.com/deepcaps/youtube-views/releases/tag/untagged-063e3bb6aa5304817f57) puis executez le simplement sans installation
+Télechargez [_l'executable windows_](https://github.com/deepcaps/youtube-views/releases/download/versions/youtube-views.zip) puis executez le simplement sans installation
 > L'executable n'est peut être pas avec la dernière version du bot
 
 ![executable](./images/executable.png)
