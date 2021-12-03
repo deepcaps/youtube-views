@@ -55,6 +55,8 @@ Vous devriez peut être avoir besoin de **débloquer** l'application avant de l'
 
 ![unblock](./images/unblock.png)
 
+> Si le bot ne fonctionne toujours pas, désactivez [_windows defender_](https://support.microsoft.com/en-us/windows/turn-off-defender-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960) puis relancer le programme.
+
 
 # How to use
 
@@ -107,6 +109,6 @@ Vous pouvez me contacter a l'adresse [**deepcaps@outlook.com**](deepcaps@outlook
 
 
 # Infos
-[![MAINTENED](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/deepcaps/youtube-views/)
+[![MAINTENED](https://img.shields.io/badge/maintained-yes-green.svg)]
 
-![test](https://github-readme-streak-stats.herokuapp.com/?user=deepcaps)
+![infos](https://github-readme-streak-stats.herokuapp.com/?user=deepcaps)
