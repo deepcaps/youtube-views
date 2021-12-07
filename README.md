@@ -110,6 +110,6 @@ Vous pouvez me contacter a l'adresse [**deepcaps@outlook.com**](deepcaps@outlook
 
 
 # Infos
-[![MAINTENED](https://img.shields.io/badge/maintained-yes-green.svg)]
+![MAINTENED](https://img.shields.io/badge/maintained-yes-green.svg)
 
 ![infos](https://github-readme-streak-stats.herokuapp.com/?user=deepcaps)
